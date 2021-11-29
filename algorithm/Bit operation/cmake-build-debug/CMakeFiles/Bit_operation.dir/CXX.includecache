@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Bit_cal.h
+iostream
+-
+bitset
+-
+vector
+-
+
+D:/C++_code_master/algorithm/Bit operation/main.cpp
+iostream
+-
+Bit_cal.h
+D:/C++_code_master/algorithm/Bit operation/Bit_cal.h
+
+D:/C++_code_master/algorithm/Bit operation/src/Bit_cal.cpp
+Bit_cal.h
+D:/C++_code_master/algorithm/Bit operation/src/Bit_cal.h
+
+D:/C++_code_master/algorithm/Bit operation/src/Bit_func.cpp
+Bit_cal.h
+D:/C++_code_master/algorithm/Bit operation/src/Bit_cal.h
+

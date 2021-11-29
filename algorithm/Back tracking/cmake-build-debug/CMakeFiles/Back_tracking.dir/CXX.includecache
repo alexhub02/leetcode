@@ -1,0 +1,106 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Combine.h
+iostream
+-
+unordered_map
+-
+unordered_set
+-
+set
+-
+stack
+-
+queue
+-
+algorithm
+-
+
+../include/Partition.h
+iostream
+-
+unordered_map
+-
+unordered_set
+-
+set
+-
+stack
+-
+queue
+-
+
+../include/Permutations.h
+iostream
+-
+unordered_map
+-
+unordered_set
+-
+set
+-
+stack
+-
+queue
+-
+algorithm
+-
+
+../include/Subsets.h
+iostream
+-
+unordered_map
+-
+unordered_set
+-
+set
+-
+stack
+-
+queue
+-
+algorithm
+-
+
+../include/test_func.h
+Subsets.h
+../include/Subsets.h
+Combine.h
+../include/Combine.h
+Partition.h
+../include/Partition.h
+Permutations.h
+../include/Permutations.h
+
+D:/C++_code_master/algorithm/Back tracking/main.cpp
+iostream
+-
+test_func.h
+D:/C++_code_master/algorithm/Back tracking/test_func.h
+
+D:/C++_code_master/algorithm/Back tracking/src/Combine.cpp
+Combine.h
+D:/C++_code_master/algorithm/Back tracking/src/Combine.h
+
+D:/C++_code_master/algorithm/Back tracking/src/Partition.cpp
+Partition.h
+D:/C++_code_master/algorithm/Back tracking/src/Partition.h
+
+D:/C++_code_master/algorithm/Back tracking/src/Permutations.cpp
+Permutations.h
+D:/C++_code_master/algorithm/Back tracking/src/Permutations.h
+
+D:/C++_code_master/algorithm/Back tracking/src/Subsets.cpp
+Subsets.h
+D:/C++_code_master/algorithm/Back tracking/src/Subsets.h
+
+D:/C++_code_master/algorithm/Back tracking/src/test_func.cpp
+test_func.h
+D:/C++_code_master/algorithm/Back tracking/src/test_func.h
+

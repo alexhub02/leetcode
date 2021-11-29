@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BST.h
+Tree.h
+../include/Tree.h
+
+../include/Tree.h
+iostream
+-
+vector
+-
+queue
+-
+stack
+-
+algorithm
+-
+
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/main.cpp
+iostream
+-
+Tree.h
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/Tree.h
+BST.h
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/BST.h
+
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/src/BST.cpp
+BST.h
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/src/BST.h
+
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/src/Make_Tree.cpp
+Tree.h
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/src/Tree.h
+
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/src/Tree.cpp
+Tree.h
+D:/C++_code_master/data structure/Binary tree/Traversal of binary tree/src/Tree.h
+

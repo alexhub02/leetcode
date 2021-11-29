@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Recur.h
+Tree.h
+../src/Tree.h
+
+../src/Tree.h
+iostream
+-
+vector
+-
+queue
+-
+stack
+-
+unordered_map
+-
+algorithm
+-
+
+D:/C++_code_master/data structure/Binary tree/Recursive operation/main.cpp
+iostream
+-
+Tree.h
+D:/C++_code_master/data structure/Binary tree/Recursive operation/Tree.h
+Recur.h
+D:/C++_code_master/data structure/Binary tree/Recursive operation/Recur.h
+

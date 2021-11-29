@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Basic_questions.h
+
+D:/C++_code_master/algorithm/Dynamic programming/src/Basic_question.cpp
+Basic_questions.h
+D:/C++_code_master/algorithm/Dynamic programming/src/Basic_questions.h
+

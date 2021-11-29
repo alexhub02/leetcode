@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/BFS.h
+Tree.h
+../src/Tree.h
+
+../src/Tree.h
+iostream
+-
+vector
+-
+queue
+-
+stack
+-
+unordered_map
+-
+algorithm
+-
+
+D:/C++_code_master/algorithm/Breadth first search/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+Tree.h
+D:/C++_code_master/algorithm/Breadth first search/Tree.h
+BFS.h
+D:/C++_code_master/algorithm/Breadth first search/BFS.h
+
+D:/C++_code_master/algorithm/Breadth first search/src/BFS.cpp
+BFS.h
+D:/C++_code_master/algorithm/Breadth first search/src/BFS.h
+
+D:/C++_code_master/algorithm/Breadth first search/src/BFS.h
+Tree.h
+D:/C++_code_master/algorithm/Breadth first search/src/Tree.h
+
+D:/C++_code_master/algorithm/Breadth first search/src/Tree.h
+iostream
+-
+vector
+-
+queue
+-
+stack
+-
+unordered_map
+-
+algorithm
+-
+

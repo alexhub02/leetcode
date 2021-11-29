@@ -1,0 +1,3 @@
+"E:\Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Traversal_of_binary_tree.dir/objects.a
+E:\mingw64\bin\ar.exe cr CMakeFiles\Traversal_of_binary_tree.dir/objects.a @CMakeFiles\Traversal_of_binary_tree.dir\objects1.rsp
+E:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Traversal_of_binary_tree.dir/objects.a -Wl,--no-whole-archive -o Traversal_of_binary_tree.exe -Wl,--out-implib,libTraversal_of_binary_tree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Traversal_of_binary_tree.dir\linklibs.rsp

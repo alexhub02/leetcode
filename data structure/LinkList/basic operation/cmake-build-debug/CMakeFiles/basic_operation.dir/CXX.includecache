@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LinkList.h
+iostream
+-
+
+../include/test_func.h
+iostream
+-
+LinkList.h
+../include/LinkList.h
+
+D:/C++_code_master/data structure/LinkList/basic operation/main.cpp
+iostream
+-
+LinkList.h
+D:/C++_code_master/data structure/LinkList/basic operation/LinkList.h
+test_func.h
+D:/C++_code_master/data structure/LinkList/basic operation/test_func.h
+
+D:/C++_code_master/data structure/LinkList/basic operation/src/LinkList.cpp
+LinkList.h
+D:/C++_code_master/data structure/LinkList/basic operation/src/LinkList.h
+
+D:/C++_code_master/data structure/LinkList/basic operation/src/test_func.cpp
+test_func.h
+D:/C++_code_master/data structure/LinkList/basic operation/src/test_func.h
+

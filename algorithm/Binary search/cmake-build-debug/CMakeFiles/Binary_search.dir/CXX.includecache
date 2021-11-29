@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Binary_search.h
+iostream
+-
+unordered_map
+-
+unordered_set
+-
+set
+-
+stack
+-
+queue
+-
+algorithm
+-
+math.h
+../include/math.h
+stdlib.h
+-
+
+D:/C++_code_master/algorithm/Binary search/src/Binary_search.cpp
+Binary_search.h
+D:/C++_code_master/algorithm/Binary search/src/Binary_search.h
+

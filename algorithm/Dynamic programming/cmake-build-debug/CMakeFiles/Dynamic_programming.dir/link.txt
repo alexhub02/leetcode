@@ -1,0 +1,3 @@
+"E:\Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Dynamic_programming.dir/objects.a
+E:\mingw64\bin\ar.exe cr CMakeFiles\Dynamic_programming.dir/objects.a @CMakeFiles\Dynamic_programming.dir\objects1.rsp
+E:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Dynamic_programming.dir/objects.a -Wl,--no-whole-archive -o Dynamic_programming.exe -Wl,--out-implib,libDynamic_programming.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dynamic_programming.dir\linklibs.rsp
